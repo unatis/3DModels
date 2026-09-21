@@ -1,0 +1,8 @@
+# 3DModels
+
+Исходники моделей для проекта Parabellum. Большие файлы - через Git LFS.
+
+- `Glock17Gen5.zip` - Glock 17 Gen 5, одиночная модель пистолета (без рук), FBX + текстуры 4K
+  (basecolor, normal, roughness, metallic). Один меш, 1.87 млн треугольников. Габариты в файле
+  не в масштабе (98 x 21 x 77 условных единиц) - к реальным 202 x 34 x 139 мм приводится
+  скриптом `Tools/blender/prep_glock17gen5.py` в Parabellum.
